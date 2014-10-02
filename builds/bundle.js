@@ -18747,7 +18747,7 @@ var Gobang = React.createClass({displayName: 'Gobang',
       map[this.lastY][this.lastX] = EMPTY;
 
       var state = {
-        turn: this.state.turn === BLACK ? WHITE : BLACK,
+        turn: this.lastTurn,
         result: EMPTY,
         map: map
       };
@@ -18827,6 +18827,7 @@ var Gobang = React.createClass({displayName: 'Gobang',
 
       this.lastY = y;
       this.lastX = x;
+      this.lastTurn = turn;
     }
   }
 });
