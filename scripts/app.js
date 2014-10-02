@@ -170,10 +170,7 @@ var Gobang = React.createClass({
 
       this.lastY = y;
       this.lastX = x;
-<<<<<<< HEAD
-=======
       this.lastTurn = turn;
->>>>>>> gh-pages
     }
   }
 });
