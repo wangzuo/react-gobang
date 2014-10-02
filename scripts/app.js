@@ -90,11 +90,7 @@ var Gobang = React.createClass({
       map[this.lastY][this.lastX] = EMPTY;
 
       var state = {
-<<<<<<< HEAD
-        turn: this.state.turn === BLACK ? WHITE : BLACK,
-=======
         turn: this.lastTurn,
->>>>>>> gh-pages
         result: EMPTY,
         map: map
       };
