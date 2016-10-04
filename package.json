@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "~0.11.2"
+    "react": "~15.3.2"
   },
   "devDependencies": {
     "gulp": "~3.8.8",
